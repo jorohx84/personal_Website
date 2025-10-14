@@ -1,0 +1,348 @@
+.aboutmeSection {
+    width: 100%;
+
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 112px;
+    position: relative;
+    // background-color: rgb(241, 244, 247);
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 32px;
+    // background-color: var(--back);
+    border-radius: 20px;
+}
+
+.subContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: clamp(32px, 10vw, 156px) // gap: clamp(80px, 3vw, 112px);
+
+
+}
+
+.textContainer {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+
+
+    border-radius: 10px;
+
+}
+
+.aboutText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+
+}
+
+.textHeadline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    >h1 {
+        font-size: 32px;
+        color: var(--font-highlight);
+    }
+}
+
+
+
+
+
+.photo {
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+
+    >img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+
+.factsheet {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-top: solid var(--highlight);
+    padding-top: 16px;
+
+    .fact {
+        display: flex;
+        justify-content: start;
+        padding: 16px 12px;
+
+        border-radius: 5px;
+        gap: 32px;
+
+        >p {
+            font-weight: 500;
+            width: 160px;
+            font-size: 16px !important;
+        }
+    }
+}
+
+.btnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 56px;
+}
+
+.softskills {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 10px;
+
+}
+
+
+
+.softskillsCard {
+    max-width: 600px;
+
+
+    // height: clamp(160px, calc(600px - 25vw), 260px);
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 24px;
+    box-sizing: border-box;
+
+    background-color: var(--box);
+    box-shadow: var(--shadow);
+    border-radius: 4px;
+    // transform: scale(0.92);
+    // transition: transform 0.8s ease-in-out;
+    // transition: height 1s ease-in-out, gap 1s ease-in-out, transform 0.5s ease-in-out;
+    cursor: pointer;
+
+    >span {
+        font-size: 16px;
+    }
+}
+
+.scaleCard {
+    transform: scale(1);
+}
+
+.softskillsCardTitle {
+    display: flex;
+
+    gap: clamp(4px, 0.3vw, 16px);
+    align-items: center;
+
+    >h3 {
+        font-size: 16px;
+        color: var(--font-highlight);
+    }
+
+
+    >img {
+        width: 60px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding: 12px;
+    }
+}
+
+
+// .flipCard {
+//     perspective: 1000px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border-radius: 10px;
+//     background-color: white;
+//     width: clamp(240px, 10vw, 300px);
+//     aspect-ratio: 1/1;
+//     transition: left 1s ease-in-out, top 1s ease-in-out, width 1s ease-in-out, height 1s ease-in-out;
+
+//     >img {
+//         width: 30%;
+//     }
+
+
+//     cursor: pointer;
+
+//     .flipCardInner {
+//         position: relative;
+//         width: 100%;
+//         height: 100%;
+//         transition: transform 0.6s ease-in-out;
+//         transform-style: preserve-3d;
+//         box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+//         border-radius: 6px;
+//     }
+
+//     &:hover .flipCardInner {
+//         transform: rotateY(180deg);
+//     }
+
+//     .flipCardFront,
+//     .flipCardBack {
+//         position: absolute;
+//         width: 100%;
+//         height: 100%;
+//         border-radius: 6px;
+//         backface-visibility: hidden;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: center;
+//         background-color: white;
+//         padding: 16px;
+
+//     }
+
+//     .flipCardFront {
+//         gap: 10px;
+//         gap: 24px;
+
+//         >h3 {
+//             font-size: clamp(1rem, 1vw, 1.2rem);
+//         }
+
+//         >img {
+//             width: 30%;
+//         }
+//     }
+
+//     .flipCardBack {
+//         transform: rotateY(180deg);
+//         align-items: flex-start;
+//         justify-content: flex-start;
+//         padding-block: 32px;
+//         gap: 16px;
+
+//         >p {
+//             text-align: start;
+//             font-size: clamp(0.7rem, 1.3vw, 1.1rem);
+//             font-weight: 300;
+//         }
+
+//         >img {
+//             width: 20%;
+//         }
+//     }
+// }
+
+// .cardflip {
+//     transform: rotateY(180deg) !important;
+// }
+
+
+
+@media(max-width:1550px) {
+    .softskills {
+        gap: 12px;
+    }
+
+
+}
+
+@media(max-width:1360px) {
+    .subContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .softskills {
+        gap: 24px;
+    }
+
+
+
+}
+
+
+@media(max-width: 1050px) {
+
+
+    .btnContainer {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 630px) {
+    .factsheet {
+        .fact {
+            align-items: center;
+
+            >p {
+                width: 90px;
+                min-width: 90px
+            }
+        }
+
+    }
+
+    .softskillsCard {
+        height: clamp(180px, calc(600px - 50vw), 240px);
+    }
+}
+
+@media(max-width: 500px) {
+    .btnContainer {
+        justify-content: center;
+    }
+
+    .textContainer {
+        align-items: center;
+    }
+
+    .aboutText {
+        >h2 {
+            text-align: center;
+        }
+
+    }
+
+
+    .flipCard {
+        width: 320px;
+    }
+
+    .softskillsCard {
+        max-width: 480px;
+    }
+
+    .softskillsCardTitle {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

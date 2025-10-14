@@ -1,0 +1,88 @@
+.skillSection {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // gap: 56px;
+    margin-bottom: 56px;
+}
+
+.skillContainer {
+    width: 100%;
+    max-width: 1440px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.skillCard {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.9);
+    transition: transform 1s ease-in-out;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 32px;
+    background-color: var(--box);
+    box-shadow: var(--shadow);
+    // border: solid 1px var(--main);
+    border-radius: 4px;
+
+    >h4 {
+        color: var(--font-highlight);
+    }
+
+    .cardImage {
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--highlight);
+        border-radius: 100px;
+
+        >img {
+
+            width: 32px;
+
+
+        }
+    }
+
+
+}
+
+
+
+.scaleCard {
+    transform: scale(1);
+}
+
+
+@media(max-width: 1240px) {
+    .skillContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media(max-width: 780px) {
+    .skillContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

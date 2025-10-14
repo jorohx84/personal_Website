@@ -1,0 +1,568 @@
+.projectsSection {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    // gap: clamp(0px, 0.3vw, 32px);
+
+    border-radius: 20px;
+
+
+}
+
+.projectContainer {
+    width: 100%;
+    // flex: 1;
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+
+.projectsBar {
+    width: 100%;
+    height: fit-content;
+    min-height: 70px;
+    display: flex;
+    // justify-content: space-between;
+    align-items: flex-end;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    >div {
+        >img {
+            width: 100%;
+            max-width: 300px;
+            aspect-ratio: 1.5/1.1;
+            border-radius: 4px;
+            box-shadow: var(--shadow);
+            cursor: pointer;
+        }
+    }
+
+}
+
+.projectBtn {
+    width: 200px;
+    height: 40px;
+    aspect-ratio: unset;
+    border-radius: 8px;
+    transition: height 0.4s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    background-color: var(--back);
+    color: var(--dark);
+
+}
+
+.projectBtnDark {
+    width: 200px;
+    height: 40px;
+    aspect-ratio: unset;
+    border-radius: 8px;
+    transition: height 0.4s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.btnActive {
+    background-color: var(--dark) !important;
+    color: var(--white-font);
+    height: 60px;
+}
+
+.btnActiveDark {
+    background-color: white;
+    color: var(--dark);
+    height: 60px;
+}
+
+.projectsInfos {
+    width: 100%;
+    height: 100%;
+    // max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding-block: 56px;
+
+    >h2 {
+        border-bottom: solid var(--highlight);
+    }
+}
+
+.projectDescription {
+    width: 100%;
+    // max-width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    gap: clamp(16px, 5vw, 112px);
+
+    >img {
+        width: 100%;
+        max-width: clamp(160px, 30vw, 520px);
+        aspect-ratio: 1.5/1.1;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+    }
+
+    .duration {
+        display: flex;
+        gap: 8px;
+    }
+}
+
+.projectKeyFacts {
+    width: 100%;
+    height: 100%;
+    max-width: 680px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+
+    >p {
+        height: 100px;
+    }
+
+}
+
+.stack {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    border-bottom: solid 1.5px var(--main);
+    padding: 8px;
+    background-color: var(--box);
+    border-bottom: solid var(--highlight);
+}
+
+.stackImage {
+
+
+    >img {
+        width: 30px;
+    }
+}
+
+.brightness {
+    filter: brightness(0.9) !important;
+}
+
+.projectsBtns {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+@media(max-width: 1440px) {
+    .btnActive {
+        height: 40px;
+    }
+
+    .projectBtn {
+        height: 40px;
+        border-radius: 4px;
+    }
+
+}
+
+@media(max-width: 900px) {
+    .projectDescription {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 470px) {
+    .projectsBar {
+        justify-content: center;
+        padding-block: 64px;
+    }
+
+    .projectsInfos {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: var(--bodyback);
+        z-index: 1;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(100%);
+        padding: 32px;
+        gap: 32px;
+        overflow-y: scroll;
+    }
+
+    .projectDescription {
+        gap: 32px;
+    }
+}
+
+.slideIn {
+    transform: translateX(0) !important;
+}
+
+// @media(max-width: 1500px) {
+//     .projectContainer {
+//         flex-direction: row;
+//         align-items: flex-start;
+//         justify-content: flex-start;
+//         gap: 112px;
+//         height: 100%;
+//         margin-top: 56px;
+//     }
+
+//     .projectDescription {
+//         height: 100%;
+//         >img {
+//             width: 300px;
+// aspect-ratio: 1.5/1;
+//         }
+//     }
+
+//     .projectKeyFacts {
+//         gap: 16px;
+//     }
+
+//     .projectsBar {
+//         width: fit-content;
+//         flex-direction: column;
+//     }
+
+//     .projectsInfos {
+//         height: 100%;
+//         padding: 0;
+//     }
+
+//     .projectBtn {
+//         height: 60px;
+//         border-radius: 4px;
+//     }
+
+//     .btnActive {
+//         height: 60px;
+//     }
+// }
+
+
+// ab hier alter coder!!!!!!!!
+
+// .projectsBarContainer {
+//     width: fit-content;
+//     box-shadow: var(--shadow);
+//     padding: 32px;
+//     border-radius: 10px;
+//     min-height: 100%;
+// }
+
+// .projectsCards {
+//     width: 100%;
+//     max-width: 1440px;
+//     min-height: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-wrap: wrap;
+
+//     gap: clamp(16px, 3vw, 48px);
+
+
+// }
+
+// .brightness {
+//     filter: brightness(0.8) !important;
+// }
+
+
+
+// .projectCard {
+//     // width: clamp(120px, 8vw, 180px);
+//     width: 100%;
+//     max-width: clamp(300px, 20vw, 360px);
+//     height: fit-content;
+//     cursor: pointer;
+//     transition: transform 0.3s ease-in-out;
+
+//     // >span {
+//     //     color: white;
+//     //     font-weight: 400;
+//     // }
+//     >img {
+//         width: 100%;
+//         aspect-ratio: 1/0.7;
+//         border-radius: 4px;
+//         box-shadow: var(--shadow);
+
+
+
+
+//     }
+
+//     &:hover {
+//         transform: scale(1.05);
+//     }
+
+//     &:active {
+//         transform: scale(0.95);
+//     }
+
+// }
+
+
+
+// // .projectDetails {
+// //     width: 100%;
+// //     display: flex;
+// //     justify-content: flex-start;
+// //     transition: transform 0.5s ease-in-out;
+// // }
+
+// .projectDetails {
+//     // position: fixed;
+//     // top: 0;
+//     // left: 0;
+//     width: 100%;
+//     min-height: 100vh !important;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: space-between;
+//     gap: 96px;
+//     padding: 64px 0;
+//     z-index: 2;
+//     background-color: white;
+
+//     // transform: translateX(120%);
+
+// }
+
+// .projectsInfoContainer {
+//     width: 100%;
+//     // max-width: clamp(500px, 40vw, 700px);
+//     // height: clamp(490px, 30vw, 650px);
+//     // position: absolute;
+//     // top: 50%;
+//     // left: 50%;
+//     // transform: translate(-50%, -50%);
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     padding: 32px;
+//     gap: 8px;
+//     border-radius: 10px;
+//     // box-shadow: var(--shadow);
+//     background-color: white;
+
+//     >img {
+//         width: clamp(120px, 10vw, 200px);
+//         aspect-ratio: 1.5/1;
+//         box-shadow: var(--shadow);
+//         border-radius: 10px;
+//     }
+
+//     >h3 {
+//         color: var(--main);
+//         width: 100%;
+//         border-bottom: solid 1.5px var(--main);
+//     }
+// }
+
+
+// .duration {
+//     display: flex;
+//     gap: 8px;
+// }
+
+// .stack {
+//     width: 100%;
+//     display: flex;
+//     gap: 24px;
+//     border-bottom: solid 1.5px var(--main);
+//     padding-block: 8px;
+
+// }
+
+// .stackImage {
+
+
+//     >img {
+//         width: 30px;
+//     }
+// }
+
+// .projectsImageContainer {
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap: 48px;
+
+
+// }
+
+// .projectsBtns {
+//     width: 100%;
+//     display: flex;
+//     justify-content: flex-end;
+//     gap: 24px;
+// }
+
+// // .slideIn {
+// //     transform: translateX(0) !important;
+// // }
+
+// .closeBtn {
+//     width: 30px;
+//     position: absolute;
+//     top: 64px;
+//     right: 64px;
+//     z-index: 1;
+//     cursor: pointer;
+// }
+
+// .divider {
+
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 16px;
+//     position: relative;
+// }
+
+// .slideBtn {
+//     width: 50px;
+//     height: 50px;
+
+//     border: solid 1px var(--dark);
+//     border-radius: 100px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     cursor: pointer;
+
+//     >img {
+//         width: 40%;
+//     }
+
+//     &:active {
+//         transform: scale(0.95);
+//     }
+// }
+
+
+// .navigation {
+//     display: flex;
+//     gap: 16px;
+
+// }
+
+// .leftLine {
+//     width: 100%;
+//     height: 1px;
+//     border-radius: 100px;
+//     background-color: var(--dark);
+
+// }
+
+// .rightLine {
+//     width: 10%;
+//     height: 1px;
+//     border-radius: 100px;
+//     background-color: var(--dark);
+// }
+
+
+// // .forward {
+// //     animation: slideOutLeft 0.8s ease-out forwards;
+// //     // animation: slideInRight 0.8s ease-out forwards;
+// // }
+
+// // .backward {
+// //     animation: slideInLeft 0.8s ease-out forwards;
+// // }
+
+
+
+
+
+
+// @media(max-width: 1000px) {
+
+
+//     // .projectDetails {
+//     //     position: fixed;
+//     //     top: 0;
+//     //     left: 0;
+//     //     height: 100vh;
+//     //     align-items: flex-start;
+//     //     justify-content: center;
+//     //     padding-top: 64px;
+//     //     z-index: 2;
+//     //     background-color: white;
+//     //     transform: translateX(120%);
+//     // }
+
+
+//     .divider {
+//         display: none;
+//     }
+
+//     .projectsBarContainer {
+//         width: 100%;
+//         box-shadow: unset;
+//         padding: 0;
+//     }
+
+//     .projectsBar {
+//         border: unset;
+//         height: fit-content;
+//         max-width: unset;
+//         display: grid;
+//         grid-template-columns: repeat(2, 1fr);
+//         align-items: start;
+
+//     }
+
+//     .projectBtn {
+//         width: clamp(140px, 40vw, 100%);
+//         aspect-ratio: 1/1;
+//         align-items: center;
+
+
+
+//     }
+// }
+
+// @media(max-width: 685px) {
+
+//     .projectsCards {
+//         justify-content: center;
+//     }
+// }
+
+
+
+// @media(max-width: 380px) {
+//     .projectsInfoContainer {
+//         box-shadow: unset;
+//         height: 90vh;
+
+//     }
+
+// }

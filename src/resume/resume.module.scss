@@ -1,0 +1,162 @@
+.resumeSection {
+    width: 100%;
+
+
+
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryTitle {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    :nth-child(2) {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    >img {
+        width: 46px;
+    }
+}
+
+.resumeContainer {
+
+    display: flex;
+    justify-content: center;
+    gap: clamp(32px, 16vw, 256px);
+}
+
+.jobContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+}
+
+.step {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: flex-start;
+    gap: clamp(8px, 2vw, 32px);
+
+    &:hover {
+        .dot {
+            >div {
+                transform: scale(1) !important;
+            }
+        }
+    }
+}
+
+.dot {
+
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid var(--highlight);
+    border-radius: 100px;
+    background-color: var(--bodyback);
+
+    >div {
+        min-width: 16px;
+        max-width: 16px;
+        min-height: 16px;
+        max-height: 16px;
+        border-radius: 100px;
+        border: solid var(--highlight);
+        transition: transform 0.6s ease-in-out;
+        transform: scale(0);
+        background-color: var(--highlight);
+
+    }
+
+}
+
+
+
+
+
+
+
+
+.description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    :nth-child(1) {
+        font-size: 22px;
+
+    }
+
+    :nth-child(2) {
+        font-size: 16px;
+        // color: var(--font2);
+        margin-top: 8px;
+    }
+
+    :nth-child(3) {
+        font-size: 18px;
+        font-weight: 400;
+
+        margin-top: 8px;
+    }
+
+    :nth-child(4) {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 4px;
+    }
+
+    :nth-child(5) {
+        font-size: 18px;
+        // color: var(--font2);
+        margin-top: 12px;
+    }
+
+    // >h3 {
+    //     font-size: 18px;
+    //     color: var(--font2)
+    // }
+
+    // >p{
+    //     font-size: 20px;
+    // }
+}
+
+
+.line {
+    position: absolute;
+    min-width: 2px;
+    z-index: -1;
+    background-color: var(--back);
+}
+
+.lineInner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: var(--highlight);
+}
+
+
+
+@media (max-width:900px) {
+    .resumeContainer {
+        flex-direction: column;
+        gap: 96px;
+    }
+
+}

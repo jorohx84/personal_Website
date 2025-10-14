@@ -1,0 +1,145 @@
+.footerSection {
+    width: 100%;
+    height: fit-content;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px 0;
+    gap: 32px;
+
+}
+
+a {
+    font-size: 16px;
+}
+
+.content {
+
+    width: 100%;
+    height: 100%;
+    max-width: 2160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.personalData {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+.adressContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.adress {
+    display: flex;
+    gap: 8px;
+}
+
+.navigations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.legalLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+
+}
+
+.sitemap {
+    display: flex;
+    gap: 16px;
+
+    >a {
+        background-color: var(--dark);
+        color: white;
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: solid var(--border);
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+        &:hover {
+            background-color: white;
+            color: var(--dark);
+            border: solid var(--dark)
+        }
+    }
+
+}
+
+.linkbox {
+    margin-top: 16px;
+}
+
+@media(max-width: 1140px) {
+
+    .footerSection {
+        position: relative;
+        gap: 0;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+
+    }
+
+    .navigations {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .personalData {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .linkbox{
+    margin-bottom: 20px;
+    }
+    .adressContainer{
+        align-items: center;
+    }
+    .legalLinks{
+        margin-top: 16px;
+    }
+
+}
+
+@media(max-width: 825px) {
+    .sitemap {
+        flex-direction: column;
+    }
+
+    .adress {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        >span {
+            display: none;
+        }
+    }
+
+    .legalLinks {
+
+        gap: 24px;
+    }
+}
