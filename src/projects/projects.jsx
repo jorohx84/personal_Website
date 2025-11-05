@@ -40,21 +40,21 @@ const Projects = () => {
             duration: "5",
             show: true,
         },
-        {
-            title: "Todo App",
-            imagePath: "/img/todolist.webp",
-            stack: [
-                "./icons/skills/html.svg",
-                "./icons/skills/css.svg",
-                "./icons/skills/typescript.svg",
-                "./icons/skills/react.svg",
-            ],
-            description: t('projects.todoappText'),
+        // {
+        //     title: "Todo App",
+        //     imagePath: "/img/todolist.webp",
+        //     stack: [
+        //         "./icons/skills/html.svg",
+        //         "./icons/skills/css.svg",
+        //         "./icons/skills/typescript.svg",
+        //         "./icons/skills/react.svg",
+        //     ],
+        //     description: t('projects.todoappText'),
 
-            link: "https://www.johannes-roth.de/todoapp",
-            duration: "0.5",
-            show: true,
-        },
+        //     link: "https://www.johannes-roth.de/todoapp",
+        //     duration: "0.5",
+        //     show: true,
+        // },
         {
             title: "Bewerbungs Manager",
             imagePath: "img/bewerbung_titelphoto.webp",
