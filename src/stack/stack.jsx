@@ -127,9 +127,17 @@ const Stack = () => {
                     name: 'Firebase'
                 },
                 {
-                    path: './icons/skills/figma.svg',
-                    name: 'Figma'
+                    path: './icons/skills/node.svg',
+                    name: 'Node.js'
                 },
+                {
+                    path: './icons/skills/php.svg',
+                    name: 'php'
+                },
+                //   {
+                //     path: './icons/skills/figma.svg',
+                //     name: 'Figma'
+                // },
             ],
             description: t('stack.text4'),
         }

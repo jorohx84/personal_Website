@@ -4,7 +4,8 @@ import { useState } from "react";
 import { useTranslation } from '../services/useTranslation';
 import Divider from "../shared/divider";
 const Hero = () => {
-    const firstLetters = ['F', 'R', 'O', 'N', 'T', 'E', 'N', 'D'];
+    // const firstLetters = ['F', 'R', 'O', 'N', 'T', 'E', 'N', 'D'];
+    const firstLetters = ['F', 'U', 'L', 'L', 'S', 'T', 'A', 'C', 'K'];
     const secondLetters = ['D', 'E', 'V', 'E', 'L', 'O', 'P', 'E', 'R'];
     //     const firstLetters = ['J', 'O', 'H', 'A', 'N', 'N', 'E', 'S'];
     // const secondLetters = ['R', 'O', 'T', 'H'];
@@ -69,7 +70,7 @@ const Hero = () => {
 
                     </div>
                     <img className={styles.portrait} src="./img/portrait2.webp" alt="portraitfoto" />
-                      {/* <img className={styles.portrait} src="./icons/code.svg" alt="portraitfoto" /> */}
+                    {/* <img className={styles.portrait} src="./icons/code.svg" alt="portraitfoto" /> */}
                 </div>
                 <div className={styles.divider}>
                     <Divider section="hero" />

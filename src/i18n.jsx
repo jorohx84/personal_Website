@@ -85,7 +85,8 @@ export const translations = {
             text1: 'Mit HTML und CSS lege ich die Basis jeder Webanwendung. HTML sorgt für die semantische Struktur der Inhalte, während CSS für ansprechende und responsive Layouts zuständig ist. Ich achte dabei auf sauberen, wartbaren Code und setze moderne Layout-Techniken wie Flexbox oder Grid gezielt ein.',
             text2: 'Mit JavaScript bringe ich Webseiten zum Leben – von dynamischen Inhalten bis hin zu komplexer Benutzerinteraktion. TypeScript verwende ich, um größere Projekte robuster und skalierbarer zu machen, dank statischer Typisierung und besserer Wartbarkeit.',
             text3: 'Ich arbeite sowohl mit Angular als auch React, um skalierbare Single-Page Applications zu entwickeln. In Angular nutze ich das komponentenbasierte Architekturmodell und Module für klare Projektstrukturen. Mit React entwickle ich wiederverwendbare UI-Komponenten und profitiere von einem flexiblen State-Management.',
-            text4: 'Firebase nutze ich als Backend-as-a-Service-Lösung für Authentifizierung, Realtime-Datenbanken und Hosting. Es ermöglicht mir, Full-Stack-Projekte auch ohne eigenes Backend umzusetzen. Mit Figma arbeite ich eng mit Designvorgaben oder Designern zusammen, um Layouts zu analysieren, Designsysteme zu übernehmen und Prototypen effizient umzusetzen.',
+            // text4: 'Firebase nutze ich als Backend-as-a-Service-Lösung für Authentifizierung, Realtime-Datenbanken und Hosting. Es ermöglicht mir, Full-Stack-Projekte auch ohne eigenes Backend umzusetzen. Mit Figma arbeite ich eng mit Designvorgaben oder Designern zusammen, um Layouts zu analysieren, Designsysteme zu übernehmen und Prototypen effizient umzusetzen.',
+            text4: 'Ich verwende Firebase als Backend-as-a-Service für Authentifizierung, Realtime-Datenbanken und Hosting. Ergänzend entwickle ich serverseitige Services und APIs mit Node.js und PHP, um projektspezifische Anforderungen umzusetzen. So lassen sich Full-Stack-Anwendungen flexibel mit oder ohne eigenes Backend realisieren.'
         },
         skills: {
             headline: 'Fähigkeiten',
@@ -125,11 +126,11 @@ export const translations = {
             },
             workstations: [
                 {
-                    jobtitle: 'Frontend Entwickler',
+                    jobtitle: 'Webentwicklung',
                     time: 'seit 01/2025',
                     employer: 'CodRed Webentwicklung',
                     location: 'Herxheim/Deutschland',
-                    description: 'Bei CodRed Webentwicklung war ich für die technische und gestalterische Umsetzung individueller Kundenprojekte verantwortlich. Mein Fokus lag dabei auf der Entwicklung moderner Frontend-Lösungen mit besonderem Augenmerk auf Benutzerfreundlichkeit (UX/UI), Performance und Suchmaschinenoptimierung (SEO). In enger Zusammenarbeit mit Kunden und Designteams habe ich digitale Produkte realisiert, die sowohl funktional als auch visuell überzeugen.',
+                    description: 'Als selbstständiger Webentwickler und Inhaber von CodRed bin ich für die technische und gestalterische Umsetzung individueller Kundenprojekte verantwortlich. Mein Fokus liegt auf der Entwicklung moderner Frontend-Lösungen mit besonderem Augenmerk auf Benutzerfreundlichkeit (UX/UI), Performance und Suchmaschinenoptimierung (SEO). In enger Zusammenarbeit mit meinen Kunden und Designteams realisiere ich digitale Produkte, die sowohl funktional als auch visuell überzeugen.',
                 },
                 {
                     jobtitle: 'Gebietsverkaufsleiter',
@@ -378,8 +379,8 @@ export const translations = {
             text1: 'With HTML and CSS, I lay the foundation for every web application. HTML provides the semantic structure of the content, while CSS is responsible for attractive and responsive layouts. I focus on writing clean, maintainable code and make targeted use of modern layout techniques such as Flexbox and Grid.',
             text2: 'JavaScript brings websites to life – from dynamic content to complex user interactions. I use TypeScript to make larger projects more robust and scalable, thanks to static typing and improved maintainability.',
             text3: 'I work with both Angular and React to develop scalable single-page applications. In Angular, I use the component-based architecture and modules to create well-structured projects. With React, I build reusable UI components and benefit from flexible state management.',
-            text4: 'I use Firebase as a Backend-as-a-Service solution for authentication, real-time databases, and hosting. It allows me to build full-stack projects without the need for a custom backend. With Figma, I collaborate closely with design guidelines or designers to analyze layouts, adopt design systems, and efficiently implement prototypes.',
-
+            // text4: 'I use Firebase as a Backend-as-a-Service solution for authentication, real-time databases, and hosting. It allows me to build full-stack projects without the need for a custom backend. With Figma, I collaborate closely with design guidelines or designers to analyze layouts, adopt design systems, and efficiently implement prototypes.',
+            text4: 'I use Firebase as a Backend-as-a-Service solution for authentication, real-time databases, and hosting. In addition, I develop server-side services and APIs with Node.js and PHP to meet project-specific requirements. This allows me to build flexible full-stack applications with or without a dedicated backend.',
         },
         skills: {
             headline: 'Skills',
@@ -418,11 +419,11 @@ export const translations = {
             },
             workstations: [
                 {
-                    jobtitle: 'Frontend Developer',
+                    jobtitle: 'Webdevelopement',
                     time: 'since 01/2025',
                     employer: 'CodRed Webentwicklung',
                     location: 'Herxheim/Deutschland',
-                    description: 'At CodRed Web Development, I was responsible for implementing custom client projects with a strong focus on user experience (UX/UI), performance, and search engine optimization (SEO). Working closely with clients and design teams, I developed modern frontend solutions that combined visual appeal with high functionality. My work consistently aimed to create intuitive, high-performance digital experiences that met both user and business needs.',
+                    description: 'As an independent web developer and owner of CodRed, I am responsible for the technical and creative implementation of custom client projects. My focus is on developing modern front-end solutions with a strong emphasis on user experience (UX/UI), performance, and search engine optimization (SEO). In close collaboration with my clients and design teams, I create digital products that are both functional and visually engaging.',
                 },
                 {
                     jobtitle: 'Area Sales Manager',
