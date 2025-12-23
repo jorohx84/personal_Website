@@ -126,11 +126,11 @@ export const translations = {
             },
             workstations: [
                 {
-                    jobtitle: 'Webentwicklung',
+                    jobtitle: 'Fullstack Entwickler',
                     time: 'seit 01/2025',
-                    employer: 'CodRed Webentwicklung',
+                    employer: 'Freelancer',
                     location: 'Herxheim/Deutschland',
-                    description: 'Als selbstständiger Webentwickler und Inhaber von CodRed bin ich für die technische und gestalterische Umsetzung individueller Kundenprojekte verantwortlich. Mein Fokus liegt auf der Entwicklung moderner Frontend-Lösungen mit besonderem Augenmerk auf Benutzerfreundlichkeit (UX/UI), Performance und Suchmaschinenoptimierung (SEO). In enger Zusammenarbeit mit meinen Kunden und Designteams realisiere ich digitale Produkte, die sowohl funktional als auch visuell überzeugen.',
+                    description: 'Als selbstständiger Fullstack Entwickler bin ich für die technische und gestalterische Umsetzung individueller Kundenprojekte verantwortlich. Mein Fokus liegt auf der Entwicklung moderner Softwarelösungen mit besonderem Augenmerk auf Benutzerfreundlichkeit (UX/UI) und Performance. In enger Zusammenarbeit mit meinen Kunden und Designteams realisiere ich digitale Produkte, die sowohl funktional als auch visuell überzeugen.',
                 },
                 {
                     jobtitle: 'Gebietsverkaufsleiter',
@@ -419,11 +419,11 @@ export const translations = {
             },
             workstations: [
                 {
-                    jobtitle: 'Webdevelopement',
+                    jobtitle: 'Fullstack Developer',
                     time: 'since 01/2025',
-                    employer: 'CodRed Webentwicklung',
+                    employer: 'Freelancer',
                     location: 'Herxheim/Deutschland',
-                    description: 'As an independent web developer and owner of CodRed, I am responsible for the technical and creative implementation of custom client projects. My focus is on developing modern front-end solutions with a strong emphasis on user experience (UX/UI), performance, and search engine optimization (SEO). In close collaboration with my clients and design teams, I create digital products that are both functional and visually engaging.',
+                    description: 'As an independent fullstack developer, I am responsible for the technical and creative implementation of custom client projects. My focus is on developing modern software solutions with a strong emphasis on user experience (UX/UI) and performance. In close collaboration with my clients and design teams, I create digital products that are both functional and visually engaging.',
                 },
                 {
                     jobtitle: 'Area Sales Manager',
