@@ -157,7 +157,7 @@ export const translations = {
             educations: [
                 {
                     educationtitle: 'Backend Entwickler',
-                    time: '03/2025 - heute',
+                    time: '03/2025 - 12/2025',
                     school: 'Developer Akademie',
                     location: 'Remote',
                     description: 'Aufbauend auf meine Frontend-Ausbildung habe ich meine Kenntnisse im Bereich der Backend-Entwicklung vertieft. In vier umfangreichen Projekten entwickelte ich serverseitige Anwendungen mit Python, Django und dem Django REST Framework (DRF). Dabei bestand die Aufgabe jeweils darin, ein bestehendes Frontend um ein funktionales Backend zu ergänzen – inklusive Datenbankmodellierung, API-Entwicklung und Authentifizierung. Diese Ausbildung ermöglichte mir den Einstieg in die Fullstack-Entwicklung und stärkte mein Verständnis für das Zusammenspiel zwischen Frontend und Backend.',
@@ -450,7 +450,7 @@ export const translations = {
             educations: [
                 {
                     educationtitle: 'Backend Developer',
-                    time: '03/2025 - heute',
+                    time: '03/2025 - 12/2025',
                     school: 'Developer Akademie',
                     location: 'Remote',
                     description: 'Following my frontend training, I deepened my technical expertise by focusing on backend development. In four structured projects, I developed complete backend systems using Python, Django, and the Django REST Framework (DRF). Each project involved integrating with a pre-existing frontend, enabling me to gain practical experience in API development, data modeling, and server-side logic. This training has equipped me with the skills to build robust, scalable backend solutions and work efficiently across the full web development stack.',
