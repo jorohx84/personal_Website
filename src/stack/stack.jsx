@@ -122,17 +122,17 @@ const Stack = () => {
         {
             category: t('stack.category4'),
             tech: [
+                // {
+                //     path: './icons/skills/firebase.svg',
+                //     name: 'Firebase'
+                // },
                 {
-                    path: './icons/skills/firebase.svg',
-                    name: 'Firebase'
+                    path: './icons/skills/python.svg',
+                    name: 'Python'
                 },
                 {
-                    path: './icons/skills/node.svg',
-                    name: 'Node.js'
-                },
-                {
-                    path: './icons/skills/php.svg',
-                    name: 'php'
+                    path: './icons/skills/django.svg',
+                    name: 'Django'
                 },
                 //   {
                 //     path: './icons/skills/figma.svg',

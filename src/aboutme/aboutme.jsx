@@ -72,7 +72,7 @@ const Aboutme = () => {
                             {/* <h2>{t('about.textHeadline')}</h2> */}
                             <div className={styles.textHeadline}>
                                 <h1>{t('about.subline')}</h1>
-                                <h2>Frontend Developer</h2>
+                                <h2>Fullstack Developer</h2>
                             </div>
 
                             <p>{t('about.text')}</p>

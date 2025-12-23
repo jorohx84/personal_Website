@@ -81,12 +81,12 @@ export const translations = {
             category1: 'Struktur & Gestaltung',
             category2: 'Programmierung & Logik',
             category3: 'Frameworks & Bibliotheken',
-            category4: 'Backend & Tools',
+            category4: 'Backend',
             text1: 'Mit HTML und CSS lege ich die Basis jeder Webanwendung. HTML sorgt für die semantische Struktur der Inhalte, während CSS für ansprechende und responsive Layouts zuständig ist. Ich achte dabei auf sauberen, wartbaren Code und setze moderne Layout-Techniken wie Flexbox oder Grid gezielt ein.',
             text2: 'Mit JavaScript bringe ich Webseiten zum Leben – von dynamischen Inhalten bis hin zu komplexer Benutzerinteraktion. TypeScript verwende ich, um größere Projekte robuster und skalierbarer zu machen, dank statischer Typisierung und besserer Wartbarkeit.',
             text3: 'Ich arbeite sowohl mit Angular als auch React, um skalierbare Single-Page Applications zu entwickeln. In Angular nutze ich das komponentenbasierte Architekturmodell und Module für klare Projektstrukturen. Mit React entwickle ich wiederverwendbare UI-Komponenten und profitiere von einem flexiblen State-Management.',
             // text4: 'Firebase nutze ich als Backend-as-a-Service-Lösung für Authentifizierung, Realtime-Datenbanken und Hosting. Es ermöglicht mir, Full-Stack-Projekte auch ohne eigenes Backend umzusetzen. Mit Figma arbeite ich eng mit Designvorgaben oder Designern zusammen, um Layouts zu analysieren, Designsysteme zu übernehmen und Prototypen effizient umzusetzen.',
-            text4: 'Ich verwende Firebase als Backend-as-a-Service für Authentifizierung, Realtime-Datenbanken und Hosting. Ergänzend entwickle ich serverseitige Services und APIs mit Node.js und PHP, um projektspezifische Anforderungen umzusetzen. So lassen sich Full-Stack-Anwendungen flexibel mit oder ohne eigenes Backend realisieren.'
+            text4: 'Ich entwickle serverseitige Anwendungen und APIs mit Python und dem Django REST Framework. Damit realisiere ich skalierbare, sichere Backends für moderne Web- und Mobile-Anwendungen und integriere Datenbanken sowie Authentifizierung flexibel.'
         },
         skills: {
             headline: 'Fähigkeiten',
@@ -380,7 +380,7 @@ export const translations = {
             text2: 'JavaScript brings websites to life – from dynamic content to complex user interactions. I use TypeScript to make larger projects more robust and scalable, thanks to static typing and improved maintainability.',
             text3: 'I work with both Angular and React to develop scalable single-page applications. In Angular, I use the component-based architecture and modules to create well-structured projects. With React, I build reusable UI components and benefit from flexible state management.',
             // text4: 'I use Firebase as a Backend-as-a-Service solution for authentication, real-time databases, and hosting. It allows me to build full-stack projects without the need for a custom backend. With Figma, I collaborate closely with design guidelines or designers to analyze layouts, adopt design systems, and efficiently implement prototypes.',
-            text4: 'I use Firebase as a Backend-as-a-Service solution for authentication, real-time databases, and hosting. In addition, I develop server-side services and APIs with Node.js and PHP to meet project-specific requirements. This allows me to build flexible full-stack applications with or without a dedicated backend.',
+            text4: 'I develop server-side applications and APIs using Python and the Django REST Framework, building scalable and secure backends for modern web and mobile applications with flexible database and authentication integration.',
         },
         skills: {
             headline: 'Skills',
