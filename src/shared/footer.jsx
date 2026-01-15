@@ -25,24 +25,26 @@ const Footer = () => {
 
 
                     </div>
-                    <div className={styles.linkbox}>
-                        <Linkbox />
-                    </div>
+                   
 
                 </div>
+
+                 <div className={styles.linkbox}>
+                        <Linkbox />
+                    </div>
                 <div className={styles.navigations}>
                     <div className={styles.legalLinks}>
                         <HashLink smooth to="/imprint">{t('footer.legal')}</HashLink>
                         <HashLink smooth to="/privacy">{t('footer.privacy')}</HashLink>
                     </div>
-                    <div className={styles.sitemap}>
+                    {/* <div className={styles.sitemap}>
                         <HashLink smooth to="/#aboutme">{t('header.aboutme')}</HashLink>
                         <HashLink smooth to="/#stack">{t('header.stack')}</HashLink>
                         <HashLink smooth to="/#skills">{t('header.skills')}</HashLink>
                         <HashLink smooth to="/#resume">{t('header.resume')}</HashLink>
                         <HashLink smooth to="/#projects">{t('header.projects')}</HashLink>
                         <HashLink smooth to="/#contact">{t('header.contact')}</HashLink>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
